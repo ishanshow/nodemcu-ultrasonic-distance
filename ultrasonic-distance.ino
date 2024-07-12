@@ -35,7 +35,7 @@ void loop() {
   if(distanceCm>0 && distanceCm<120) {
     vibe = (((distanceCm-0)/(120-0))*100)+150;
     Serial.println(vibe);
-    analogWrite(motorPin, vibe); // turn on motor on half power
+    analogWrite(motorPin, vibe); //vibrate the motor based on distance
   }
   // Convert to inches
   distanceInch = distanceCm * CM_TO_INCH;
