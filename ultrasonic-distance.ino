@@ -33,7 +33,7 @@ void loop() {
   // Calculate the distance
   distanceCm = duration * SOUND_VELOCITY/2;
   if(distanceCm>0 && distanceCm<120) {
-    vibe = (((distanceCm-0)/(120-0))*100)+150;
+    vibe = 255-(((distanceCm-0)/(120-0))*100);
     Serial.println(vibe);
     analogWrite(motorPin, vibe); //vibrate the motor based on distance
   }
