@@ -15,7 +15,7 @@ void setup() {
   Serial.begin(115200); // Starts the serial communication
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
   pinMode(echoPin, INPUT); // Sets the echoPin as an Input
-  pinMode(motorPin, OUTPUT );
+  pinMode(motorPin, OUTPUT); // Sets the motorPin as an Output
 }
 
 void loop() {
