@@ -1,6 +1,6 @@
-const int trigPin = 12;
-const int echoPin = 14;
-const int motorPin = 5;    // vibration motor digital pin D4
+const int trigPin = 12;    // SR04 trigger pin
+const int echoPin = 14;    // SR04 echo pin
+const int motorPin = 5;    // vibration motor digital pin
 
 //define sound velocity in cm/uS
 #define SOUND_VELOCITY 0.034
