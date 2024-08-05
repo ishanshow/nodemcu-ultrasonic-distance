@@ -1,7 +1,7 @@
 const int trigPin = 12;    // SR04 trigger pin
 const int echoPin = 14;    // SR04 echo pin
 const int motorPin = 5;    // vibration motor digital pin
-
+//duration
 //define sound velocity in cm/uS
 #define SOUND_VELOCITY 0.034
 #define CM_TO_INCH 0.393701
